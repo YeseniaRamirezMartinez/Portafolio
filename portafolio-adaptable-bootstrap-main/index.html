@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Yesenia Ramírez Martínez">
+    <meta name="description" content="Portafolio de desarrollo web de Yesenia Ramírez Martínez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Yesenia Ramírez Martínez | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/logo%20uv.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono-blanco.svg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/yo.jpg" alt="Foto de Yesenia Ramírez Martínez">
+        <h1>Hola, soy Yesenia Ramírez Martínez</h1>
+        <h2>Estudio Administración de Negocios Internacionales en la Facultad de Ciencias Adminisitrativas y Sociales.</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/ANI.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Yesenia Ramírez Martínez</h2>
+        <p class="seccion-texto">Hola soy Yes, tengo 21 años, mi signo zodiacal es acuario, me gusta mucho escuchar música, dormir y pasar tiempo con las personas que amo❣︎ suelo distraerme muy fácil y soy muy especial con la comida.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Hobbies -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Hobbies</p>
+            <p>Amo escuchar música todo el tiempo, leer en mis tiempos libres y hacer o ver algún deporte. </p>
+          </div>
+          <!-- Vida Personal -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Vida Personal</p>
+            <p>Mi vida en los últimos años ha sido algo complicada, ya que han pasado demasiadas cosas y mi mentalidad también ha cambiado. </p>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Actualmente estoy cursando sexto semestre de la carrera de Administración de Negocios Internacionales y puedo decir que me gusta y he logrado conseguir amistades increíbles ❤︎ </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto">
+              <img src="imagenes/herramientas%20basicas.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.canva.com/design/DAF8xcQhp94/ZA82AKo2VWZWvSS1bG6mIw/edit?utm_content=DAF8xcQhp94&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto">
+              <img src="imagenes/a2.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="a2-20240409T005029Z-001/a2/index.html" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto">
+              <img src="imagenes/a3.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="a3-20240409T005032Z-001/a3/index%20(1).html" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto">
+              <img src="imagenes/a4.jpeg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="a4-20240409T010538Z-001/a4/index.html" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://youtu.be/s_1E7lW1ra8?si=Vj3y-x4JH5XYNIJ3" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Babi - loca
+            </li>
+          </a>
+          <a href="https://youtu.be/xbsYkWlf_rU?si=iEyXTyZIqL4iknPr" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Entrégame Tu Amor - Carin Leon
+            </li>
+          </a>
+          <a href="https://youtu.be/_-E5w-Dn5QE?si=L3JbOdxR0vaMx1zV" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Sabino - ¿Qué Pasó Mi Amor? Letra/Lyrics
+            </li>
+          </a>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis amigos...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/ari.jpg" alt="Foto de Ari">
+              <p class="testimonio-texto">Eres una persona muy linda, haces reír mucho a la gente cuando quieres y eres responsable en todo, te deseo lo mejor💟</p>
+              <div class="testimonio-info">
+                <p class="cliente">Ariadna💙</p>
+                <p class="cargo">Gerente de conseguir chupe</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/tania.jpg" alt="Foto de Tania">
+              <p class="testimonio-texto">Gracias por estar justamente en esos momentos que necesito, te quiero y sigue siendo una gran persona💕</p>
+              <div class="testimonio-info">
+                <p class="cliente">Tania⭐</p>
+                <p class="cargo">Gerente en ser mala copa</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/dani.jpg" alt="Foto de Dani">
+              <p class="testimonio-texto">Eres una chava estudiosa y responsable, también sabes ser buena amiga🙂.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Dani💫</p>
+                <p class="cargo">Gerente en ser seria</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar un negocio y hagamos maravillas.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:zs21010366@estudiantes.uv.mx">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Confía en ti</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/Yes_maar" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/ysessirm" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:zs21010366@estudiantes.uv.mx" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Yesenia Ramírez Martínez (2024) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

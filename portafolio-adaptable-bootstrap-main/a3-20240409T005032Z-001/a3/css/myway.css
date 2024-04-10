@@ -1,0 +1,52 @@
+/* manda el margen y el padding a 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* centrar la caja principal-agrupar */ 
+#agrupar {
+    width: 980px;
+    margin: 10px auto;
+    text-align: left;
+    border: 2px solid;
+    padding: 10px;
+}
+/* estilos para la cabecera de la página */
+#cabecera {
+    background: #ACB9E3;
+    border: 1px solid #000;
+    padding: 20px;
+}
+/* convierte la lista desordenada en barra de menú */
+#menu {
+    background: #D2BCB9;
+    padding: 20px;
+}
+/*estilo de la lista*/
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+}
+/* caja de información principal */
+.seccion {
+    float: left;
+    width: 660px;
+    margin: 15px;
+}
+/* formato a la información secundaria */
+.secu {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 10px;
+    background: #B8D1C9;      
+}
+/* estilos para el pie de página */
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #9BC6D1;
+}
